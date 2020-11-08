@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <label for="content">タスクの内容</label><br />
-<input type="text" name="content" value="${message.content}" />
+<input type="text" name="content" value="${tasks.content}" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
-<button type="submit">投稿</button>
+<button type="submit">確定</button>
